@@ -3,9 +3,9 @@ import LoginField from "./LoginField";
 import { useNavigate } from "react-router-dom";
 import "./login.css";
 import axios from "axios";
-import { BASE_URL } from "../../config";
+
 const Login = () => {
-  const url = (path) => `${BASE_URL}${path}`;
+  const url = (path) => `${process.env.BASE_URL}${path}`;
   localStorage.setItem("benson", "thomas");
   const navigate = useNavigate();
   const [errorMessage, setErrorMessage] = useState("");
