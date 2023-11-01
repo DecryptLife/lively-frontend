@@ -24,7 +24,6 @@ const Login = () => {
       withCredentials: true,
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
       },
     });
 
