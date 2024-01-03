@@ -56,9 +56,9 @@ const LoginField = ({ handleSubmit }) => {
         </button>
       </form>
 
-      <div>
+      {/* <div>
         <button onClick={() => GoogleSignIn()}> Sign in with Google</button>
-      </div>
+      </div> */}
     </div>
   );
 };
